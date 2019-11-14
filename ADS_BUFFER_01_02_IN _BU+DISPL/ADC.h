@@ -4,6 +4,7 @@
 #include "stm32f10x_gpio.h"
 #include "stm32f10x_adc.h"
 #include "delay.h"
+#include "stm32f10x_tim.h"
 
 uint32_t GPIOC15_gnd_connect(void);
 void GPIO_toggeld_13(void);
